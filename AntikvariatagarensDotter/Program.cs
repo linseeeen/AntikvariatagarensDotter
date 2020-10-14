@@ -6,7 +6,9 @@ namespace AntikvariatagarensDotter
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Book b1 = new Book();
+            b1.IsCursed();
+            Console.ReadLine();
         }
     }
 }
